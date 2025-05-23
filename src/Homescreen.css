@@ -1,0 +1,151 @@
+.welcome-section {
+  max-width: 450px;
+  margin-left: 40px;
+  padding: 2rem;
+}
+
+.welcome-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+  
+}
+
+.welcome-message {
+  font-size: 1.1rem;
+  color: #444;
+  text-align: left;
+  color: #5a0000;
+}
+
+.catalog-btn {
+  background-color: #dc143c;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.catalog-btn:hover {
+  background-color: #a80f2c;
+}
+
+
+
+
+.home-btn {
+  background-color: crimson;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(220, 20, 60, 0.2);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.home-btn:hover {
+  background-color: #a70000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
+}
+
+
+
+.home-screen-wrapper {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(135deg, #b2e2d4, #e8f5f2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #00796b;
+}
+
+.home-btn {
+  background-color: crimson;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.5rem 1.25rem;
+}
+
+.home-btn:hover {
+  background-color: #a70000;
+}
+
+.square {
+  position: absolute;
+  border-radius: 8px;
+  opacity: 0.1;
+  z-index: 0;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* Back-and-forth animation */
+@keyframes floatBackAndForth {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(120vw) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+  }
+}
+
+/* Individual squares with different durations and delays */
+.square1 {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+  top: 10%;
+  left: -10%;
+  animation: floatBackAndForth 40s infinite;
+}
+
+.square2 {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  top: 40%;
+  left: -15%;
+  animation: floatBackAndForth 32s infinite;
+  animation-delay: 5s;
+}
+
+.square3 {
+  width: 120px;
+  height: 120px;
+  background-color: crimson;
+  top: 70%;
+  left: -12%;
+  animation: floatBackAndForth 20s infinite;
+  animation-delay: 3s;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+/* custom.css */
+
+:root {
+  --crimson: #dc143c;
+}
+
+/* Override Bootstrap primary buttons */
+.btn-primary {
+  background-color: var(--crimson) !important;
+  border-color: var(--crimson) !important;
+}
+
+/* Change focus and hover states */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #b01030 !important;
+  border-color: #a00e2c !important;
+}
+
+/* Optional: style card borders or headers */
+.card {
+  border: 1px solid var(--crimson);
+}
+
+.card h2 {
+  color: var(--crimson);
+}

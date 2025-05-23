@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.catalog-image {
+  height: 200px;       /* or whatever fixed height you prefer */
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc; /* optional to visually separate */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* fixed height */
+  object-fit: contain; /* fit the whole image inside without cropping */
+  background-color: #f0f0f0; /* optional: show a background where image doesn't fill */
+}
+
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.2); /* Light transparent black */
+}
+
+
+
+.spinner {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: App-logo-spin 1s linear infinite;
+  margin: 20px auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
