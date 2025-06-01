@@ -1,3 +1,8 @@
+# Purpose
+
+This projects goal is to showcase my experience developing simple UI and backend functionalities. It includes React, Bootstrap, and css for front end.
+This project utilizes firebase as a backend and javascript.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
