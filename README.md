@@ -1,7 +1,10 @@
 # Purpose
 
-This projects goal is to showcase my experience developing simple UI and backend functionalities. It includes React, Bootstrap, and css for front end.
-This project utilizes firebase as a backend and javascript.
+This projects goal is to showcase my experience developing simple and intuative UI and backend functionalities. It features React, Bootstrap, and Css capabilities for front end and it utilizes firebase and javascript as a backend.
+
+# Functionality
+
+This is a simple catalogue web app that allows a user to make an account and buy or sell items online. A user will have to sign in once they have made an account and a user can manage their products by choosing to delete or edit them.
 
 # Getting Started with Create React App
 
